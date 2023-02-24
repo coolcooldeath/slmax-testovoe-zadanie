@@ -1,0 +1,21 @@
+
+@font-face
+{font-family:font;/* Задаем имя шрифта */
+url("\\fonts\\font.ttf")}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family:'font';
+}
+body{
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #507ac8;
+  padding: 0 10px;
+}
